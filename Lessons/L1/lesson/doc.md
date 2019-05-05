@@ -27,7 +27,7 @@ movl %ebx, %eax (AT&T)
 
 В среде ОС UNIX более популярен синтаксис типа AT&T, однако учебных пособий по нему нет, он описывается исключительно в справочной и технической литературе. Поэтому логично выбрать ассемблер на основе синтаксиса Intel. Для UNIX-систем есть два основных ассемблера — это NASM (Netwide Assembler) и FASM (Flat Assembler). Для линейки Windows популярностью пользуются FASM и MASM (Macro Assembler) от фирмы Microsoft, и также существовал еще TASM (Turbo Assembler). Будем использовать **NASM** в виду его кроссплатформенности.
 
-[список основных команд](https://github.com/bin-exp/bin-exp.github.io/docs/Основные+команды+ASM/Основные+команды+ASM.md)
+[список основных команд](https://github.com/bin-exp/bin-exp.github.io/blob/master/docs/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20ASM/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20ASM.md)
 
 #### Организация памяти программы 
 
