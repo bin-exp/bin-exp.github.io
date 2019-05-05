@@ -1,2 +1,2 @@
-# pwn-course
+# Binary Exploitation
 Курс по эксплуатации бинарных уязвимостей
