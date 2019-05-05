@@ -170,8 +170,9 @@ int len = 256;
 
 Осуществляется для выполнения системных функций ядром - открытие/закрытие файлов, чтение/запись, создание сокетов, установка прав и многое другое. В x86 осуществляется путем вызова системного прерывания `int 0x80` с соответствующими параметрами. которые заблаговременно были помещены в регистры. В x86_64 - с помощью функции `syscall()`.
 
-[Таблица syscall'ов для x86](https://github.com/bin-exp/bin-exp.github.io/tree/master/docs/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D1%8B%20%D0%B2%20Linux/linux_syscalls_x86.md)
-[Таблица syscall'ов для x86_64](https://github.com/bin-exp/bin-exp.github.io/tree/master/docs/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D1%8B%20%D0%B2%20Linux/linux_syscalls_x86_64.md)
+[Таблица syscall'ов для x86](https://github.com/bin-exp/bin-exp.github.io/docs/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D1%8B%20%D0%B2%20Linux/linux_syscalls_x86.md)
+
+[Таблица syscall'ов для x86_64](https://github.com/bin-exp/bin-exp.github.io/docs/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D1%8B%20%D0%B2%20Linux/linux_syscalls_x86_64.md)
 
 #### Простейшая программа - Hello, pwners!
 
